@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "tickwire-agent-key",
+      "description": "Tickwire agent key (twag_...). Start with a read-only key.",
+      "password": true
+    }
+  ],
+  "servers": {
+    "tickwire": {
+      "type": "http",
+      "url": "https://api.tickwire.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:tickwire-agent-key}"
+      }
+    }
+  }
+}

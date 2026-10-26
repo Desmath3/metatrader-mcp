@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "tickwire": {
+      "url": "https://api.tickwire.io/mcp",
+      "headers": {
+        "Authorization": "Bearer twag_your_agent_key"
+      }
+    }
+  }
+}

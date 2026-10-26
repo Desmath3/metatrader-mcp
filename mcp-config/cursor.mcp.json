@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tickwire": {
+      "url": "https://api.tickwire.io/mcp"
+    }
+  }
+}
